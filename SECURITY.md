@@ -2,51 +2,53 @@
 
 ## 📌 Supported Versions
 
-The following versions of **Drops Crypto** are currently supported with security updates:
+The following branches of **Drops Crypto** are currently supported with security updates:
 
-| Version | Supported |
-|--------|-----------|
-| main   | ✅ Yes    |
-| dev    | ⚠️ Best effort |
-| < 1.0  | ❌ No     |
+| Branch | Supported |
+|------|-----------|
+| main | ✅ Yes |
+| dev  | ⚠️ Best effort |
+| others | ❌ No |
 
 ---
 
 ## 🚨 Reporting a Vulnerability
 
-If you discover a security vulnerability, **please do not open a public issue**.
+If you discover a security vulnerability, **please do not open a public GitHub issue**.
 
-Instead, report it responsibly using one of the following channels:
+Instead, report it privately using **GitHub Security Advisories**:
 
-- 📧 **Email**: security@dropscrypto.app *(recommended)*
-- 📬 **Private GitHub Security Advisory**
-- 🔐 Encrypted report (PGP) — on request
+- Go to the repository
+- Open the **Security** tab
+- Click **Report a vulnerability**
+
+If GitHub Advisories are not available, you may contact the maintainers directly via a private message on GitHub.
 
 Please include:
-- Description of the vulnerability
+- A clear description of the issue
 - Steps to reproduce
 - Potential impact
 - Proof of concept (if available)
 
-We aim to respond **within 48 hours**.
+We aim to respond within **48 hours**.
 
 ---
 
 ## 🔐 Security Scope
 
 ### In scope
-- Twitch OAuth 2.0 flow
-- JWT authentication & authorization
-- API endpoints (`/auth`, `/me`, `/wallets`)
-- Mobile ↔ API communication
+- Twitch OAuth 2.0 authentication flow
+- JWT-based authorization
+- API endpoints related to authentication and user data
 - Wallet linking logic
+- Mobile ↔ Backend communication
 - Environment variable handling
 
 ### Out of scope
-- Denial of Service (DoS/DDoS)
+- Denial of Service (DoS / DDoS)
 - Social engineering attacks
-- Third-party service vulnerabilities (Twitch, Expo, ngrok)
-- Physical device compromise
+- Vulnerabilities in third-party services (Twitch, Expo, ngrok)
+- Compromised user devices
 
 ---
 
@@ -54,50 +56,41 @@ We aim to respond **within 48 hours**.
 
 ### Backend
 - OAuth tokens are never exposed to the client
-- JWT tokens have limited lifetime
-- Secrets stored only in `.env`
-- Prisma ORM prevents SQL injection
-- Rate limiting on auth endpoints
+- JWT tokens are short-lived
+- Secrets are stored only in environment variables
+- Prisma ORM is used to mitigate SQL injection
+- Input validation on all public endpoints
 
-### Mobile App
-- Secure token storage (SecureStore / Keychain)
+### Mobile Application
 - No secrets embedded in the client
+- Secure storage used for authentication tokens
 - HTTPS enforced for all API requests
 
 ---
 
 ## 🔎 Vulnerability Disclosure Process
 
-1. Report received
-2. Triage & validation
-3. Patch development
-4. Coordinated disclosure
-5. Public fix announcement (if applicable)
+1. Vulnerability reported privately
+2. Issue triaged and validated
+3. Fix developed and tested
+4. Patch released
+5. Public disclosure if appropriate
 
 ---
 
-## 🧪 Security Testing
-
-- Manual testing during development
-- Dependency scanning via `npm audit`
-- Planned integration of SAST / DAST tools
-
----
-
-## ⚖️ Legal
+## ⚖️ Responsible Disclosure
 
 By reporting a vulnerability, you agree to:
 - Act in good faith
-- Avoid data exfiltration
+- Avoid accessing or modifying user data
 - Avoid service disruption
-- Give us reasonable time to fix the issue
+- Allow reasonable time for remediation
 
-We will not take legal action against researchers who follow this policy.
+We will not pursue legal action against researchers who follow this policy.
 
 ---
 
-## 📄 Acknowledgements
+## 🙏 Acknowledgements
 
-We appreciate the efforts of security researchers and responsible disclosure.
-
-Thank you for helping keep **Drops Crypto** secure.
+We thank security researchers and contributors for responsible disclosure
+and for helping improve the security of **Drops Crypto**.
