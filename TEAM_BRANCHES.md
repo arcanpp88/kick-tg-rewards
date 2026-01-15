@@ -2,7 +2,7 @@
 
 ## Люди
 - [@Eric-Lebedenko](https://github.com/Eric-Lebedenko) — владелец, основные фичи/баги, ревью.
-- [@VladLitvinov](https://github.com/VladLitvinov) — QA (ревью/тесты, мелкие правки).
+- [@Vladyslav-Litvinov](https://github.com/Vladyslav-Litvinov) — QA (ревью/тесты, мелкие правки).
 - [@tiktak6828](https://github.com/tiktak6828) — дополнительный dev, только безопасные задачи/документация, без мержа без ревью.
 
 ## Префиксы веток
