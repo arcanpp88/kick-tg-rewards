@@ -7,7 +7,7 @@ Thanks for helping! Quick rules to keep the repo healthy.
 2. Keep changes focused and small.
 3. Run/check what you touch (API: `uvicorn main:app --reload`, front: `python -m http.server 8001 --directory frontend`).
 4. Open a Pull Request to `main` with a clear title and summary.
-5. Wait for review from code owners (@Eric-Lebedenko @VladLitvinov @tiktak6828).
+5. Wait for review from code owners (@Eric-Lebedenko @Vladyslav-Litvinov @tiktak6828).
 
 ## Commit & PR
 - Commits: short imperative (`feat: ...`, `fix: ...`, `docs: ...`).
