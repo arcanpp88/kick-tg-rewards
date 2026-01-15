@@ -4,6 +4,7 @@
 - [@Eric-Lebedenko](https://github.com/Eric-Lebedenko) — владелец, основные фичи/баги, ревью.
 - [@Vladyslav-Litvinov](https://github.com/Vladyslav-Litvinov) — QA (ревью/тесты, мелкие правки).
 - [@tiktak6828](https://github.com/tiktak6828) — дополнительный dev, только безопасные задачи/документация, без мержа без ревью.
+- [@Frank1Frank](https://github.com/Frank1Frank) — начинающий dev, работает в sandbox и над документацией.
 
 ## Префиксы веток
 - `feature/...` — новые фичи (Eric, при необходимости tiktak6828 по договорённости).
